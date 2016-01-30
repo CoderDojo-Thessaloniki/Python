@@ -93,13 +93,17 @@ counter = 0
 while win == False:
 
 	counter += 1
-	
+
 	a = random.randint(1,7)
 	b = random.randint(1,7)
 	c = random.randint(1,7)
 
 	if a == b == c == 7 :
 		win = True
+
+
+print("You have won!")
+print("It took ", counter, " tries!")
 
 
 
