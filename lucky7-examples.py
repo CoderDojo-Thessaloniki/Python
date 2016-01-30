@@ -121,10 +121,13 @@ for j in range(2**32):#Although it is not mathematically correct, the chance not
 
 
 
+'''
+#########################################################
+# This example is commented out because it is EVIL!
 ####################################################
 print("\n\n\n\n       The Run-Until-I-Win example _recursive_edition       ")
 # This is baaaaaaaaaaaad and  WILL NOT RUN  in repl.it  :P
-# In case you need more recursion depth write uncomment the following lines
+# In case you need more recursion depth uncomment the following two lines, but have in mind that IT IS BAD practice to increase the recursion depth.
 #import sys
 #sys.setrecursionlimit(9999) # We need moooore recursion depth!
 ####################################################
@@ -140,3 +143,4 @@ luckyDraw()
 
 print("You have won!")
 print("It took ", counter, " tries!")
+'''
