@@ -83,6 +83,26 @@ print("It took ", counter, " tries!")
 
 
 ####################################################
+print("\n\n\n       The Run-Until-I-Win example _no-for_edition       ")
+####################################################
+import random
+
+win = False
+counter = 0
+
+while win == False:
+
+	counter += 1
+	
+		a = random.randint(1,7)
+		b = random.randint(1,7)
+		c = random.randint(1,7)
+		if a == b == c == 7 :
+			win = True
+
+
+
+####################################################
 print("\n\n\n\n       The Run-Until-I-Win example _else-break_edition       ")
 ####################################################
 import random
